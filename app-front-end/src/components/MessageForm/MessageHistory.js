@@ -19,8 +19,6 @@ const [showError, setShowError] = useState();
       });    
   }, []);
 
-  
-
   return (
     <div>
         <h2 className="text-center">History Messages</h2>

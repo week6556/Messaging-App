@@ -10,7 +10,6 @@ const HomePage = (props) => {
       time: data.time,
       status: data.status,
     });
-    console.log(message);
 
     MessageService.createMessage(message);
   };
